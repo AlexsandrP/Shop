@@ -14,4 +14,36 @@ public class Purchase {
     private Integer customerId;
     private Integer produktId;
     
+     public Integer  getpurchaseId() {
+        return purchaseId;
+    }
+
+    public void setpurchaseId(int purchaseId) {
+        this.purchaseId = purchaseId;
+    }
+
+    public Integer getcount() {
+        return count;
+    }
+    public void setcount(int count) {
+        this.count = count;
+            
+    }
+    public Integer getcustomerId() {
+        return customerId;
+    }
+    public void setcustomerId(int customerId) {
+        this.customerId = customerId;
+            
+    }
+    public Integer getproduktId() {
+        return produktId;
+    }
+    public void setproduktId(int produktId) {
+        this.produktId = produktId;
+            
+    }
+        
+        
+    
 }
